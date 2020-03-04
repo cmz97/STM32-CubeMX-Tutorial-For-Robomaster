@@ -1,0 +1,6 @@
+main.c:81:5:main	48	static
+main.c:167:6:SystemClock_Config	88	static
+main.c:206:7:calcLinearAccel	24	static
+main.c:210:7:calcGyro	32	static
+main.c:221:9:twosComp2ByteToSignedInt	16	static
+main.c:232:6:Error_Handler	4	static
