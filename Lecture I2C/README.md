@@ -114,7 +114,7 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
 
 ### CubeMX Setup
 
-![stm32Pinout](C:\Users\01001\Desktop\STM32-Tutorial-For-Robomaster\Annotation\stm32Pinout.png)
+![stm32Pinout](Annotation/stm32Pinout.png)
 
 In the system Core menu, turn on the RCC clock for HSE and LSE by select the **Crystal/Ceramic Resonator**.
 
@@ -122,11 +122,11 @@ In the Connectivity menu, turn on the I2C by select the I2C Mode. Verify the pin
 
 Now go to clock frequency, verify that the HCLK is at the MAX indicated in the blue text. In my case, my clock configuration is like the following. 
 
-![Annotation 2020-02-23 180015](C:\Users\01001\Desktop\STM32-Tutorial-For-Robomaster\Annotation\Annotation 2020-02-23 180015.png)
+![Annotation 2020-02-23 180015](Annotation/Annotation 2020-02-23 180015.png)
 
 Now open the Project Manager tab -> Code Generator and turn on the **Generate peripheral initialization as a pair of  '.c/.h' files per peripheral**
 
-![Annotation 2020-02-23 180317](C:\Users\01001\Desktop\STM32-Tutorial-For-Robomaster\Annotation\Annotation 2020-02-23 180317.png)
+![Annotation 2020-02-23 180317](Annotation/Annotation 2020-02-23 180317.png)
 
 Now click the **Device Configuration Generation Tool** Button to generate the code
 
