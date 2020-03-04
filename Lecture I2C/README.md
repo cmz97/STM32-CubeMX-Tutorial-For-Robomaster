@@ -122,11 +122,11 @@ In the Connectivity menu, turn on the I2C by select the I2C Mode. Verify the pin
 
 Now go to clock frequency, verify that the HCLK is at the MAX indicated in the blue text. In my case, my clock configuration is like the following. 
 
-![Annotation 2020-02-23 180015](Annotation/Annotation 2020-02-23 180015.png)
+![Annotation 2020-02-23 180015](Annotation/1.png)
 
 Now open the Project Manager tab -> Code Generator and turn on the **Generate peripheral initialization as a pair of  '.c/.h' files per peripheral**
 
-![Annotation 2020-02-23 180317](Annotation/Annotation 2020-02-23 180317.png)
+![Annotation 2020-02-23 180317](Annotation/2.png)
 
 Now click the **Device Configuration Generation Tool** Button to generate the code
 
